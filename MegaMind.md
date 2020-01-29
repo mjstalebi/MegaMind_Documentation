@@ -326,7 +326,8 @@ Again from the tabs on left side of the page choose "Intents" tab. At the top of
 
 Your Skill is ready to test. 
 To test the Skill go to "Test" tab at the top of the same page. Then send these requests:
+```
 open mega translate
 search for what time is it?
-
+```
 This should invoke the proper intents in your Skill, and you should see that the Skill on your computer prints the intents it receives.
