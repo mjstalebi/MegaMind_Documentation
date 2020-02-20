@@ -26,7 +26,7 @@ Let's install Alexa device SDK for first SDK, we will repeat the same instructio
 	git gcc cmake openssl clang-format libgstreamer1.0-0 gstreamer1.0-plugins-base \
 	gstreamer1.0-plugins-good gstreamer1.0-plugins-bad \
 	gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tools \
-	pulseaudio doxygen libsqlite3-dev repo libasound2-de
+	pulseaudio doxygen libsqlite3-dev repo libasound2-dev
 ```
 We need to install more gstreamer packages as dependencies
 ```bash
