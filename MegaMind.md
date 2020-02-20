@@ -115,7 +115,7 @@ In order to build the SDK:
 And insert the following lines to build.sh:
  ```bash
 	SDK_FOLDER=$HOME/MegaMind/MegaMind_device_SDK1
-	cmake $SDK_FOLDER/source/avs-device-sdk \
+	cmake $SDK_FOLDER/source \
 	-DCMAKE_BUILD_TYPE=DEBUG \
 	-DSENSORY_KEY_WORD_DETECTION=OFF \
 	-DKITTAI_KEY_WORD_DETECTOR=ON \
@@ -167,7 +167,7 @@ And insert the following lines to build.sh:
 And insert the following lines to build.sh:
  ```bash
 	SDK_FOLDER=$HOME/MegaMind/MegaMind_device_SDK2
-	cmake $SDK_FOLDER/source/avs-device-sdk \
+	cmake $SDK_FOLDER/source \
 	-DCMAKE_BUILD_TYPE=DEBUG \
 	-DSENSORY_KEY_WORD_DETECTION=OFF \
 	-DKITTAI_KEY_WORD_DETECTOR=ON \
