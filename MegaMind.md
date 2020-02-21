@@ -197,7 +197,10 @@ Then
 ![enter image description here](https://www.ics.uci.edu/~sseyedta/Pics/Alexa4.png)In this page click on CREATE NEW PROFILE
 ![enter image description here](https://www.ics.uci.edu/~sseyedta/Pics/Alexa5.png)Fill the form as above and click Next
 ![enter image description here](https://www.ics.uci.edu/~sseyedta/Pics/Alexa6.png)
-Copy the highlighted Client ID and keep it on your machine.
+In this step click on Other devices and platforms tab.
+![enter image description here](https://www.ics.uci.edu/~sseyedta/Pics/Alexa7.png)
+Enter MegaMind_device1 as client_ID name and click on GENERATE ID button.
+Copy the generated Client ID and keep it on your machine.
 Choose I agree .. and click Finish. 
 Repeat the whole process for the second device SDK. this time replace all the "1"s in the pictures with 2.  
 Record the Client ID for device SDK 2, too.
