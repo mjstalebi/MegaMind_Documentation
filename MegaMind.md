@@ -334,3 +334,31 @@ open mega translate
 search for what time is it?
 ```
 This should invoke the proper intents in your Skill, and you should see that the Skill on your computer prints the intents it receives.
+
+
+#  Install Azure Speech SDK for third-party speech-to-text service
+
+First let's clone our speech application:
+```bash
+	cd $HOME/MegaMind
+	git clone https://github.com/mjstalebi/MegaMind_Azure_Speech.git
+```
+Now we download the Azure Speech c++ SDK into this folder. 
+```bash
+	cd MegaMind_Azure_Speech
+	wget -O Azure_SDK.tar.gz  https://aka.ms/csspeech/linuxbinary
+	tar xvzf Azure_SDK.tar.gz	
+```
+before Compiling our Speech Application, we need to install some dependencies:
+```bash
+	sudo apt-get update
+	sudo apt-get install libssl1.0.0 libasound2
+```
+Then open "MegaMind_Azure_speech.cpp" and find the following line:
+```c++
+	auto config = SpeechConfig::FromSubscription("XXX", "XXX");
+
+```
+you need to replace XXXs with the information you get from your Azure Speech service.
+
+
