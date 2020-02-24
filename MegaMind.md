@@ -3,6 +3,7 @@
 In this document we provide step-by-step guide on how to install MegaMind on a new system. 
 
 [Compile and install Alexa Device SDK](./Compile_SDKs.md)
+
 [Register AVS devices in Amazon Voice Service](./AVS_account.md)
 
 
