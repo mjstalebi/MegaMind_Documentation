@@ -393,3 +393,15 @@ After Azure finishes creating your resource you can click on "Go to resource" bu
 
 Here you can find the subscription key you need to make your Speech Application under Key1.
 
+
+After you replaced XXXs in "MegaMind_Azure_speech.cpp" with your subscription key and region:
+```c++
+	auto config = SpeechConfig::FromSubscription(your key, your region);
+
+```
+you are ready to make the Speech Application
+```bash
+	cd $HOME/MegaMind/MegaMind_Azure_Speech
+	make
+```
+
