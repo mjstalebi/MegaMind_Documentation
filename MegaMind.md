@@ -361,4 +361,19 @@ Then open "MegaMind_Azure_speech.cpp" and find the following line:
 ```
 you need to replace XXXs with the information you get from your Azure Speech service.
 
+To register for Azure Speech Service, you need to first creat an Azure account and sign in to your Azure Portal. Then you can follow the instructions bellow.
+
+![enter image description here](./Pics/Azure1.png)
+Click on "Creat a resource"
+![enter image description here](./Pics/Azure2.png)
+In the search bar serach for "Speech" and click on the first result "Speech"
+![enter image description here](./Pics/Azure3.png)
+Click on "Creat" button
+![enter image description here](./Pics/Azure4.png)
+Enter the information as above. (F0 means free for limited use.)
+Click on "Create new" and create new resource group with your arbitrary name. Then Click on "Create resource"
+![enter image description here](./Pics/Azure5.png)
+After Azure finishes creating your resource you can click on "Go to resource" button.
+![enter image description here](./Pics/Azure5.png)
+Here you can find the subscription key you need to make your Speech Application under Key1.
 
