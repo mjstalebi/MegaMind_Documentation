@@ -2,7 +2,7 @@
 
 In this document we provide step-by-step guide on how to install MegaMind on a new system. 
 
-[Compile and install Alexa Device SDK](Compile_SDKS.md)
+[Compile and install Alexa Device SDK](./Compile_SDKS.md)
 
 
 # Create Amazon developer account and register two devices with it
