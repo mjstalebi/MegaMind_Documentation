@@ -13,6 +13,15 @@ In this document we provide step-by-step guide on how to install MegaMind on a n
 [Install, register and run Azure Speech to Text application](./Azure.md)
 
 
+```bash
+	cd $HOME/MegaMind
+	git clone https://github.com/mjstalebi/MegaMind_engine.git
+	cd MegaMind_engine
+	source build.sh
+
+```
+
+
 
 
 
