@@ -5,6 +5,10 @@ First you need to clone the our repository for MegaMind Skill:
 ```bash
 cd $HOME/MegaMind
 git clone https://github.com/mjstalebi/MegaMind_Skill.git
+``` 
+First we need to install python setup tools.
+```bash
+	sudo apt-get install python3-setuptools
 ```
 Then we can install the sdk and use our Skill.
 ```bash
