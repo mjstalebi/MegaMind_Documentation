@@ -14,6 +14,15 @@ Then we can install the sdk and use our Skill.
 ```bash
 cd $HOME/MegaMind/MegaMindSkill
 python3 setup.py build
+```
+To be able to host our skill locally using flask we need to install flask first.
+```bash
+cd $HOME/MegaMind/MegaMindSkill
+python3 -m pip install flask-ask-sdk/
+```
+
+Then we can run our third party skill using:
+```bash
 source run_MegaMind.sh
 ```
 then open another terminal and 
